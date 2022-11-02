@@ -1,0 +1,57 @@
+#bodyContainer{
+    margin-left: auto;
+    margin-right: auto;
+}
+#nameTag{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -3%;
+}
+
+#body{
+    background-color: #0F1108;
+}
+
+#header{
+    background-color: #27282B;
+}
+
+
+
+#hamburger{
+    background-color: #27282B;
+}
+
+#offcanvasNavbar{
+    background-color: #0F1108;
+}
+
+#dropdown{
+    background-color: #CAD8DE;
+}
+
+#languageProficiency{
+    background-color: #27282B;
+}
+
+#interests{
+    background-color: #27282B;
+}
+
+#aboutMe1{
+    background-color: #27282B;
+    padding: 2%;
+}
+
+#aboutMe2{
+    background-color: #27282B;
+    padding: 4%;
+}
+
+.noStyle{
+    text-decoration: none;
+}
+
+.doBackground{
+    background-color: #27282B;
+}

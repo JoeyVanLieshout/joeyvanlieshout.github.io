@@ -1,0 +1,219 @@
+<!-- #region "" -->
+
+<!-- #endregion -->
+
+<!-- #region "templates" -->
+ <!-- 
+ <div class="">
+
+ </div>
+
+ <div class="row">
+    <div class="col">
+
+    </div>
+</div>
+-->
+
+<!-- #endregion --> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="../style/style.css" rel="stylesheet"/>
+    <script src="../scripts/main.js" type="text/javascript" defer></script>
+    <title>About Me</title>
+</head>
+<body id="body">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <!-- #region "header" -->
+    <div class="container-fluid">
+        <div id="header" class="row">
+            <div class="col-3 ">
+                <div class="row">
+                    <div class="col">
+                        <a href="../pages/index_d.html">
+                            <img src="../assets/BrandonWhite.PNG" alt="" id="hotbarLogo" class="w-100">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 ">
+            </div>
+            <div class="col-1 ">
+                <div class="row">
+                    <div class="col ">
+                        <!--dutch button-->
+                        <div class="row">
+                            <div class="col mt-2 mb-2">
+                                <a href="">
+                                    <img src="/assets/dutch.png" alt="" class="w-50">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col ">
+                        <!--english button-->
+                        <div class="row">
+                            <div class="col mt-2 mb-2">
+                                <a href="../pages/about_me.html"> <!--edit this for each page-->
+                                    <img src="/assets/english.png" alt="" class="w-50">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1 ">
+                <!--discord button-->
+                <div class="row">
+                    <div class="col mt-1">
+                            <img onclick="GoToDiscord()" src="/assets/discord.png" alt="" class="w-100">
+                    </div>
+                </div>
+            </div> 
+            <div class="col-1 ">
+                <!--email button-->
+                <div class="row">
+                    <div class="col mt-1">
+                        <a href="mailto:joeyvanlieshout@sintlucasedu.nl">
+                            <img src="/assets/email.png" alt="" class="w-100">
+                        </a>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        <div class="row">
+            <div class="col-1  text-light mt-5">
+                <nav id="sideMenu" class="navbar">
+                    <div class="container">
+                      <button id="hamburger" class="navbar-toggler border border-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <img class="w-100 " src="/assets/Hamburger.png" alt="">
+                      </button>
+                      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                          <button type="button" class="btn-close bg-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body ">
+                          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                              <a class="nav-link active text-light" aria-current="page" href="../pages/index_d.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-light" href="../pages/about_me_d.html">About Me</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Project List
+                              </a>
+                              <ul id="dropdown" class="dropdown-menu ">
+                                <li><a class="dropdown-item" href="../pages/project_list_d.html">Projects List</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="../pages/star_jump_d.html">Star Jump</a></li>
+                                <li><a class="dropdown-item" href="../pages/arcade_hub_d.html">Arcade Hub</a></li>
+                                <li><a class="dropdown-item" href="../pages/voice_assistant_d.html">Voice Assistant</a></li>
+                                <li><a class="dropdown-item" href="../pages/wtf_assignment_d.html">WTF Assignment</a></li>
+                                <li><a class="dropdown-item" href="#">VFX [WIP]</a></li>
+                                <li><a class="dropdown-item" href="#">Command Line Snake [WIP]</a></li>
+                                <li><a class="dropdown-item" href="#">PentaMento [WIP]</a></li>
+                                <li><a class="dropdown-item" href="#">Website Remake [WIP]</a></li>
+                                <li><a class="dropdown-item" href="#">Portfolio [WIP]</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </div>
+    <!-- #endregion -->
+
+    <!-- #region "Body" -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-1">
+                
+            </div>
+            <div class="col-md-2">
+                <div class="row">
+                    <div class="col  mx-2 my-2">
+                        <img src="../assets/Alice_Everglade.png" alt="">
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-1">
+
+            </div>
+            <div class="col-lg-7 mt-5  text-light">
+                <div class="row">
+                    <div id="aboutMe1" class="col">
+                        Ik ben Joey van Lieshout (online bekend als Alice Everglade), ik ben 21 jaar en wat de meesten zouden noemen, een "nerd". <br>
+                        sinds ik ongeveer 10 jaar oud was, leerde ik ijverig dingen als <br>
+                        wiskunde, scheikunde, natuurkunde, biologie en mijn favoriet, astrofysica. <br>
+                        dit is uiteindelijk over een lange tijd uitgegroeid tot een liefde voor game-ontwikkeling omdat mijn hobby al op vrij jonge leeftijd Gaming is.
+                    </div>
+                </div>
+            </div>
+            <div class="col-1">
+
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-2">
+
+            </div>
+            <div id="aboutMe2" class="col  text-light">
+                <h3>Studeren</h3> <br>
+                op de middelbare school (een niveau van havo genaamd) had ik geen moeite met een van de eerder genoemde vakken, <br>
+                Ik kreeg vaak uitzonderingen voor mijn huiswerk en ging dus met redelijk gemak door de HAVO. <br>
+                Ik heb het 4e jaar overgedaan, maar dat was omdat ik naar Amerika ging om deel te nemen aan de "First Robotics Competition" met een team van Fontys. <br>
+                Na de middelbare school ben ik HBO (bachelor) Applied Science gaan studeren, simpel gezegd scheikunde en microbiologie. <br>
+                Na een half jaar stopte ik met deze opleiding, terwijl ik prima cijfers had vanwege een gebrek aan interesse om dit vakgebied de rest van mijn studieloopbaan te blijven volgen. <br>
+                Twee weken na vertrek heb ik een HBO ICT opleiding kunnen starten bij Fontys, dit ging door Covid-19 mis en dus probeerde ik een half jaar later weer te beginnen. <br>
+                Ik merkte dat ik snakte naar een creatievere uitlaatklep en verliet daarmee Fonthys en HBO samen.<br>
+                Nu ben ik aangekomen op SintLucas en heb ik het gevoel dat ik mijn plekje heb gevonden. <br> <br> <br> <br>
+                <h3>Hobby's</h3> <br>
+                Zoals eerder vermeld, ben ik een fan van gamen sinds ik me kan herinneren, toen ik jong was, speelde ik voornamelijk games zoals Pokemon en een willekeurig M&M-spel op de playstation. <br>
+                de eerste game die ik me kan herinneren waar ik echt verslaafd aan raakte, was Legends of Zelda: Skyward Sword. <br>
+                dit heeft mijn interesse gewekt om een verhaal te schrijven in een interessante wereld met veel kennis. <br>
+                toen ik mijn eigen computer kreeg, begon ik een Koreaanse MMO-RPG te spelen genaamd Blade and Soul, waar ik vervolgens 6 jaar van mijn leven aan besteedde. <br>
+                toen ik eindelijk aan de massa's van MMO's ontsnapte, begon ik verschillende games te spelen. <br>
+                met name Osu!, League of Legends, DnD, A Dance of Fire and Ice, Minecraft en mijn meest favoriete spel tot nu toe en waarschijnlijk voor de komende jaren, Celeste. <br>
+                als ik inspiratie uit deze games zou halen voor een droomspel dat ik zou willen maken, zou het de snelle complexe gevechten van Blade en Soul moeten zijn in combinatie met de onbeperkte snelheidslimiet van Celeste, en dan zou ik een op momentum gebaseerde schadeberekening moeten toevoegen. <br> <br>
+                <h3>Vaardigheden en carrière</h3> <br>
+                Ik heb mijn ogen gericht op het worden van een Indie Game Developer en wil daarom alles leren over game-ontwikkeling, niet alleen over software. <br>
+                Ik heb behoorlijk wat ervaring in C# en Unity, maar zou graag meer willen leren over dingen als onwerkelijk of het maken van mijn eigen game-engine, <br>
+                behalve vaardigheden in coderen, vind ik het leuk om scheikunde en natuurkunde in games uit te werken en probeer ik naast school zoveel mogelijk over te leren. <br>
+                Ik mis nog steeds de artistieke kant van game-ontwikkeling, dus ik zou graag de kans krijgen om aan deze vaardigheden te werken. <br> <br>    
+            </div>
+            <div class="col-2">
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- #endregion -->
+
+    <!-- #region "Footnote"-->
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col text-light text-center">
+                Aether Academy
+            </div>
+        </div>
+    </div>
+    <!-- #endregion -->
+</body>
+</html>

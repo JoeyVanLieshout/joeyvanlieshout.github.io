@@ -55,3 +55,13 @@
 .doBackground{
     background-color: #27282B;
 }
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+.clickableImg {
+    cursor: pointer;
+}
